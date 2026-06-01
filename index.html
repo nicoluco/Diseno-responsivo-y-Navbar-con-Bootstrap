@@ -4,8 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseño responsivo y Navbar con Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body >
+    <header>
+        
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactos</a>
+              </li>
+
+          </div>
+        </div>
+
+
     
+</nav> 
+
+<div class=" container-fluid margenPriDiv">
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+            <img src="./assets/img/coca cola original.jpg" class="card-img-top medidaImg" alt="coca cola">
+            <div class="card-body">
+                <h5 class="card-title">CocaCola</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt qui tenetur aut expedita nemo ad!</p>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+            <img src="./assets/img/pepsi.webp" class="card-img-top medidaImg" alt="Pepsi">
+            <div class="card-body">
+                <h5 class="card-title">Pepsi</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt qui tenetur aut expedita nemo ad!</p>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+            <img src="./assets/img/agua.webp" class="card-img-top medidaImg" alt="Agua">
+            <div class="card-body">
+                <h5 class="card-title">Agua</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cum ut accusamus itaque, eveniet iusto!.</p>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+            <img src="./assets/img/sprit.jpeg" class="card-img-top medidaImg" alt="Sprite">
+            <div class="card-body">
+                <h5 class="card-title">Sprite</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatem earum ut consequatur similique suscipit.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

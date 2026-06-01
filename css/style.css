@@ -1,0 +1,21 @@
+
+.medidaImg{
+    width: 200px;
+    height: auto;
+    align-items: center;
+
+}
+.margenPriDiv{
+    margin-top: 14px;
+   
+}
+
+
+@media (min-width:576px){
+    .medidaImg{
+    width: 280px;
+    height: auto;
+    align-items: center;
+
+}
+}
