@@ -1,0 +1,6 @@
+git --version
+git init
+git add .
+git commit -m "Primer commit"
+git status
+git push
